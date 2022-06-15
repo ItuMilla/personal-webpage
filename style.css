@@ -3,24 +3,35 @@ body {
     /* you can use a more complete font-family from VSCode as well */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
+    background-color: rgb(119, 21, 211);
 }
 
+.header {
+    display: flex;
+}
 .my-Subject{
-display: flex; 
+    margin: 1em;
+    padding: 1em;   
 }
 .my-Historical-Places-In-My-City {
     display: flex;
 }
 
+.my-favourite-city {
+    margin: 0em;
+    padding: 0em;
+}
+.box{
+    margin: auto; 
+    padding: 1em;
+}
 
-.subject{
+p {
+   margin: auto;
     padding: 1em;
-    margin: 1em;  
+    display: flex;
 }
-.place{
-    padding: 1em;
-    margin: 1em;
-}
+
 .header {
     background-image: url("images/Table-Mountain-Cape-Town-Western-Bay-South.webp");
     padding: 1em;
@@ -84,14 +95,23 @@ tr:nth-child(even) {
     p {
         padding: 35px;  
 }*/
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     body {
-        background-color: brown;
+        background-color: rgb(211, 21, 195);
     }
-
-@media (min-width: 960px) {
-    body {
-        background-color: rgb(255, 0, 242);
+    .subject {
+       display: flex; 
     }
-}
+    .place {
+        display: flex;
+    }
+    /*.aa {
+        display: flex;
+    }*/
+    /*.my-favourite-city {
+        display: flex;
+    }*/
+    /*.box {
+        display: flex;
+    }*/
 }

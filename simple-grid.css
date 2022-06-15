@@ -5,7 +5,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300.300italic,400italic,700,700italic);
 
-htm,
+html,
 body {
   height: 100%;  
   width: 100%;
@@ -16,9 +16,9 @@ body {
 }
 
 body {
-        font-family: 'Lato', Helvetica, sans-serif;
-        color: #333447;
-        line-height: 1.5;
+ font-family: 'Lato', Helvetica, sans-serif;
+  background-color: #333447;
+  line-height: 1.5;
 }
 
 h1 {
@@ -87,7 +87,7 @@ font-weight: 700;
      width: 100%;
  }
 
- .row [class^="col"]{
+ .row [class^="col"] {
      float: left;
      margin: 0.5rem 2%;
      min-height: 0.125rem;
@@ -98,11 +98,11 @@ font-weight: 700;
  .col-5
  .col-6
  .col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12{
+ .col-8,
+ .col-9,
+ .col-10,
+ .col-11,
+ .col-12 {
  width: 96%;
  }
 
@@ -241,6 +241,12 @@ font-weight: 700;
      .container {
          width: 75%;
          max-width: 60rem;
+     }
+     .Historical {
+      display: flex;
+     }
+     .header {
+      display: flex;
      }
  }
  table {

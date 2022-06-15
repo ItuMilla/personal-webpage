@@ -9,10 +9,12 @@ body {
 .header {
     display: flex;
 }
+
 .my-Subject{
     margin: 1em;
     padding: 1em;   
 }
+
 .my-Historical-Places-In-My-City {
     display: flex;
 }
@@ -53,7 +55,7 @@ p {
 }
 
 .footer {
-    background-color: rgb(238, 144, 207);
+    background-color: lightcoral;
     padding: 1em;
     width: auto;
 }
@@ -97,7 +99,7 @@ tr:nth-child(even) {
 }*/
 @media (min-width: 800px) {
     body {
-        background-color: rgb(211, 21, 195);
+        background-color: crimson;
     }
     .subject {
        display: flex; 
